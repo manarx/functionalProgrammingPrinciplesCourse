@@ -22,7 +22,15 @@ object Main {
   /**
    * Exercise 2
    */
-    def balance(chars: List[Char]): Boolean = ???
+    def balance(chars: List[Char]): Boolean = {
+    var leftCount = 0
+    for(ch <- chars) {
+      if (ch == '(') leftCount += 1
+      else if (leftCount > 0) leftCount -= 1
+      else return false
+    }
+    return leftCount == 0
+  }
   
   /**
    * Exercise 3
