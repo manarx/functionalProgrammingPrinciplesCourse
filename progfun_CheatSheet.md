@@ -1,7 +1,7 @@
 source: https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md
 
 ---
-layout: page
+ layout: page
 title: Cheat Sheet
 ---
 
